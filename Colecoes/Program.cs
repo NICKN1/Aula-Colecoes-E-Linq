@@ -15,9 +15,13 @@ namespace Colecoes
             WriteLine("Array Original");
             op.imprimirArray(array);
 
-            op.ordenarBuubleSort(ref array);
+            //Ordenando pelo BubbleSort
+            //op.ordenarBubbleSort(ref array);
 
-            WriteLine("Array ordenado por Bubble Sort");
+            //ordenado pela a classe Array utilizando o metodo Sort
+            op.ordenar(ref array);
+
+            WriteLine("Array ordenado");
             op.imprimirArray(array);
             /*
             //Array multidimensional (Matriz) >>> E para instanciar a matriz com valores
